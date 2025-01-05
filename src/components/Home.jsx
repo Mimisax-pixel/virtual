@@ -49,7 +49,7 @@ const About = () => {
             GitHub
           </a>
           <a
-            href="www.linkedin.com/in/wisdomonukak"
+            href="https://www.linkedin.com/in/wisdomonukak"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md font-semibold hover:bg-blue-400 transition-all duration-200"

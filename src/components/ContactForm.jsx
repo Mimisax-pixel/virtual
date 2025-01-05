@@ -15,7 +15,7 @@ const ContactOptions = () => {
           href="https://wa.me/+2349060733273" 
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-slate-900 hover:bg-green-600 text-white flex flex-col items-center gap-2 p-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 w-full md:w-1/3 text-center animate-slide-in"
+          className="bg-slate-900 md:bg-slate-900 md:hover:bg-green-600 hover:bg-green-600 text-white flex flex-col items-center gap-2 p-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 w-full md:w-1/3 text-center animate-slide-in"
         >
           <WhatsAppIcon fontSize="large" />
           <div>
@@ -42,7 +42,7 @@ const ContactOptions = () => {
         {/* Phone Call */}
         <a
           href="tel:+2349060733273" 
-          className="bg-slate-900 hover:bg-yellow-600 text-white flex flex-col items-center gap-2 p-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 w-full md:w-1/3 text-center animate-slide-in"
+          className="bg-slate-900 md:bg-slate-900 md:hover:bg-yellow-600 hover:bg-yellow-600 text-white flex flex-col items-center gap-2 p-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 w-full md:w-1/3 text-center animate-slide-in"
         >
           <PhoneIcon fontSize="large" />
           <div>

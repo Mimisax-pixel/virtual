@@ -11,15 +11,15 @@ const Navbar = ({ setShowContactForm }) => {
     { id: "home", text: "Home" },
     { id: "services", text: "Services" },
     { id: "projects", text: "Projects" },
-    { id: "contact", text: "Contact" },
+    { id: "contact", text: "Connect" },
   ];
 
   return (
     <div className=" text-white w-full fixed top-0 z-50 bg-slate-900">
       {/* Desktop Navbar */}
-      <div className="container mx-auto p-4 hidden md:flex justify-between items-center">
+      <div className="container mx-auto p-4 lg:justify-around hidden md:flex justify-between items-center">
         <div className="text-xl md:text-3xl lg:text-4xl font-bold flex items-center gap-1">
-          <span className="text-yellow-500 md:text-red-500 lg:text-blue-600">MIMI</span>
+          <span className="text-blue-600 md:text-blue-600 lg:text-blue-600">MIMI</span>
           <span className="text-blue-800">DEV</span>
         </div>
         <div className="hidden md:flex space-x-6 items-center list-none text-lg">
@@ -38,7 +38,7 @@ const Navbar = ({ setShowContactForm }) => {
         </div>
         <button
           onClick={() => setShowContactForm(true)}
-          className="text-lg bg-blue-700 px-4 py-2 rounded hover:text-yellow-100 text-white font-semibold animate-slide-in"
+          className="text-lg bg-blue-700 px-4 py-2 rounded hover:text-yellow-100 text-white font-semibold animate-slide-in lg:hidden"
         >
           Get In Touch
         </button>
@@ -47,8 +47,8 @@ const Navbar = ({ setShowContactForm }) => {
       {/* Mobile Navbar */}
       <div className="flex w-full justify-between items-center md:hidden p-2 shadow-sm">
         <div className="text-xl font-bold flex items-center gap-2">
-          <span className="text-yellow-300">MIMI</span>
-          <span className="">DEV</span>
+          <span className="text-blue-600">MIMI</span>
+          <span className="text-blue-800">DEV</span>
         </div>
         <div className="flex justify-center items-center gap-2">
           <div onClick={() => setMenu(!menu)} className="cursor-pointer">
